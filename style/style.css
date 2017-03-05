@@ -47,7 +47,7 @@ body {
 .menu-side p {
   
     padding-left: 30%;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 .menu-side p:hover {
@@ -138,18 +138,22 @@ nav ul li a:hover {
 }
 
 
-.col {
-    width: 32%;
-    float: left;
-    display: inline-block;
-    margin-left: 1%;
-}
+
 
 .tile {
     border-radius: 4px;
     overflow: hidden;
-    margin-bottom: 4%;
+    margin-bottom: 1.5%;
+    width: 32%;
+    height: auto;
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-left: 1%;
+    background-color: coral;
 }
+
+/*
 .tile img {
     width: 100%;
     display: inline;
@@ -159,12 +163,18 @@ nav ul li a:hover {
 }
 
 .tile img:hover {
-    width:105%;
-/*    height: 105%;*/
+    width: 101%;
+    
+}
+*/
+.tile img {
+    width: 100%;
 }
 
 
+
 .title {
+    position: static;
     margin-top: -6px;
     width: 100%;
     height: 35px;
@@ -176,7 +186,7 @@ nav ul li a:hover {
     font-weight: 300;
     line-height: 35px;
     padding-left: 15px;
-    
+    color: #414042;
     
 }
 
@@ -185,6 +195,156 @@ nav ul li a:hover {
   -webkit-box-shadow: 0px 3px 5px 0px #ccc;
   box-shadow:         0px 3px 5px 0px #ccc;
 }
+
+
+/*medis queris start*/
+
+@media screen and (max-width:900px) {
+    
+    .tile {
+    width: 48%;
+    float: left;
+    display: inline-block;
+    margin-left: 2%;
+}
+    
+     #slide-wrapp img:nth-child(2) {
+    width: 50%;
+    margin-right: 20px;
+}
+    
+         #slide-wrapp img:nth-child(1) {
+    width: 15%;
+    
+}
+    
+}
+
+@media screen and (max-width:420px) {
+    #wrapp {
+        
+    clear: both;
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+        
+}
+    
+        .tile {
+    width: 100%;
+        
+    float: left;
+    display: inline;
+    margin=0;
+}
+    
+    #sidebar-nav{
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    display:block;
+    font-size: 0.85em;
+    font-weight: 800;
+    position: relative;
+    color: #414042;
+    margin: 0 auto;
+    }
+    
+    #sidebar-nav ul {
+        margin-bottom: 15px;
+        clear: both;
+    }
+    
+    #sidebar-nav ul li {
+    display: inline-block;
+        width: 30%;
+        text-align: center;
+         
+    }
+    
+    
+     #sidebar-nav ul li a {
+    display: inline-block;
+         border-bottom: 1px solid #414042;
+         
+         
+    }
+    
+    nav p:first-child {
+    /*background-color: lightcoral;*/
+        float: right;
+    margin-bottom: 10px;
+    width: 30%;
+    text-align: center;
+        color: cornflowerblue;
+}
+
+
+    sidebar img {
+        float: none;
+    display: inline-block;
+   margin-left: 10%;
+        margin-bottom: 1%;
+        display: inline-block;
+}
+  /*  
+    .menu-side {
+        display: none;
+    }
+    */
+    #wrapp {
+        width: 100%;
+    }
+    
+    .menu-open {
+    left: 5%;
+}
+    
+    .menu-side {
+    position: fixed;
+    top: 0;
+    left: -65%;
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    z-index: 10000;
+    color: #414042;
+    font-weight: 200;
+    font-size: 0.85em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
