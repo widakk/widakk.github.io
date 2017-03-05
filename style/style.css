@@ -16,7 +16,7 @@ body {
 }
 
 .menu-open {
-    left: 25%;
+    left: 32%;
 }
 
 .menu-open .menu-side {
@@ -75,13 +75,13 @@ p span {
 /*sidebar start*/
 #sidebar-nav {
     float: left;
-    width: 22%;
+    width: 15%;
     height: 100vh;
     background-color: white;
     display: inline;
     font-size: 0.85em;
     font-weight: 800;
-    min-width: 190px;
+/*    min-width: 190px;*/
     position: fixed;
     color: #414042;
 }
@@ -133,7 +133,7 @@ nav ul li a:hover {
 }
 #wrapp {
     margin-top: 30px;
-    width: 78%;
+    width: 85%;
     float: right;
 }
 
