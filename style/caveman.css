@@ -286,6 +286,13 @@ nav ul li a:hover {
     font-weight: 200;
     font-size: 0.85em;
 }
+    .wrapp-container img {
+    
+    display: block;
+    width: 98%;
+    margin: 5% auto;
+}
+
 }
 
 
