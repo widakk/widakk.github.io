@@ -146,71 +146,38 @@ nav ul li a:hover {
 }
 
 
+.wrapp-container p{
+    text-align: center;    
+    font-size: 0.75em;
+    font-weight: 100;
+    width: 50%;
+    margin: 5% auto;
+    color: #414042;
+    
+}
+.wrapp-container img:nth-child(2) {
+    display: block;
+    width: 25%;
+    margin: 45px auto;
+}
+
+.wrapp-container img:nth-child(4) {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
 
 .wrapp-container h1 {
     text-align: center;
     padding-top: 15px;
 }
 
-.wrapp-container p:nth-child(2), p:nth-child(3) {
-    display: block;
-    text-align: center;
-    font-size: 0.85em;
-    font-weight: 100;
-    width: 85%;
-    margin: 0 auto;
-    padding: 10px 0;
-}
-.wrapp-container img:nth-child(4) {
-    display: block;
-    margin: 0 auto;
-    width: 45%;
-    padding: 12% 0;
+.wrapp-container a {
+    text-decoration: none;
+    color: #414042;
 }
 
-.wrapp-container img:nth-child(5) {
-    display: inline-block;
-    float: left;
-    width: 50%;
-    
-}
 
-.wrapp-container img:nth-child(6) {
-    display: inline-block;
-    float: right;
-    width: 50%;
-    
-}
-
-.wrapp-container img:nth-child(7) {
-    display: block;
-    margin: 0 auto;
-    width: 94%;
-    padding: 9% 0;
-}
-    
-
-#posters {
-    
-    width: 95%;
-    margin: 0 auto;
-    
-}
-
-#posters img:nth-child(1) {
-    display: block;
-    float: left;
-    width: 49%;
-    margin-right: 1%;
-    padding-bottom: 3%;
-}
-
-#posters img:nth-child(2) {
-    display: block;
-    float: right;
-    width: 49%;
-    margin-left: 1%;
-}
 /*medis queris start*/
 
 @media screen and (max-width:900px) {
@@ -326,19 +293,6 @@ nav ul li a:hover {
     color: #414042;
     font-weight: 200;
     font-size: 0.85em;
-}
-    
-    #posters img:nth-child(1) {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 3%;
-}
-
-    #posters img:nth-child(2) {
-    display: block;
-    width:100%;
-    margin: 0 auto;
 }
 }
 
