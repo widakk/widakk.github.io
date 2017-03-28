@@ -327,6 +327,19 @@ nav ul li a:hover {
     font-weight: 200;
     font-size: 0.85em;
 }
+    
+    #posters img:nth-child(1) {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+
+    #posters img:nth-child(2) {
+    display: block;
+    width:100%;
+    margin: 0 auto;
+}
 }
 
 
